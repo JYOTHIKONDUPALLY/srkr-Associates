@@ -6,6 +6,7 @@ import {
   BarChart2,
   Building,
   ClipboardList,
+  Receipt,
 } from "lucide-react";
 
 const services = [
@@ -42,6 +43,7 @@ const services = [
   {
     title: "Bookkeeping & Accounting",
     description: "Accurate and timely bookkeeping and accounting services",
+    icon: Receipt,
   },
 ];
 
