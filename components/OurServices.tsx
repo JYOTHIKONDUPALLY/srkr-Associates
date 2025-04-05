@@ -1,13 +1,50 @@
 import React from "react";
-import { Briefcase, FileText, ShieldCheck, BarChart2, Building, ClipboardList } from "lucide-react";
+import {
+  Briefcase,
+  FileText,
+  ShieldCheck,
+  BarChart2,
+  Building,
+  ClipboardList,
+  Receipt,
+} from "lucide-react";
 
 const services = [
-  { title: "GST Compliance", description: "GST registration, filing, and compliance advisory.", icon: Briefcase },
-  { title: "Tax Return Filing", description: "Income tax filing for individuals and businesses.", icon: FileText },
-  { title: "Auditing & Assurance", description: "Statutory and internal audits for financial accuracy.", icon: ShieldCheck },
-  { title: "Financial Advisory", description: "Expert advice on financial planning and business valuation.", icon: BarChart2 },
-  { title: "Company Law Matters", description: "Company registration, compliance, and ROC filings.", icon: Building },
-  { title: "MIS Reporting", description: "Custom MIS reports for informed business decisions.", icon: ClipboardList },
+  {
+    title: "GST Compliance",
+    description: "GST registration, filing, and compliance advisory.",
+    icon: Briefcase,
+  },
+  {
+    title: "Tax Return Filing",
+    description: "Income tax filing for individuals and businesses.",
+    icon: FileText,
+  },
+  {
+    title: "Auditing & Assurance",
+    description: "Statutory and internal audits for financial accuracy.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Financial Advisory",
+    description: "Expert advice on financial planning and business valuation.",
+    icon: BarChart2,
+  },
+  {
+    title: "Company Law Matters",
+    description: "Company registration, compliance, and ROC filings.",
+    icon: Building,
+  },
+  {
+    title: "MIS Reporting",
+    description: "Custom MIS reports for informed business decisions.",
+    icon: ClipboardList,
+  },
+  {
+    title: "Bookkeeping & Accounting",
+    description: "Accurate and timely bookkeeping and accounting services",
+    icon: Receipt,
+  },
 ];
 
 const OurServices = () => {
